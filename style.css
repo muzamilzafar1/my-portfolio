@@ -446,4 +446,17 @@ footer img {
     object-fit: cover;
     background-color: wheat;
     margin-right: 55px;
+}@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+
+/* Mobile screens (480px or smaller) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    margin: 5px;
+  }
 }
